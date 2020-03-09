@@ -100,8 +100,6 @@ for i in range(len(tab10["Name"])):
 
 # Part 2: Sentiment analysis
 
-# First I remove any possible duplicate values. I do so y transforming the list values into keys of a dictionary
-# and then transforming them back to a list
 
 score_data = pd.DataFrame()
 score_data["Name"] = my_names
